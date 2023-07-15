@@ -1,0 +1,49 @@
+@import 'fonts.css';
+@import 'header.css';
+@import 'main.css';
+@import 'footer.css';
+
+:root {
+    --background-color: #0C0B08;
+    --color-1: #FFFFFF;
+    --color-2: #F5EFDB;
+    --color-3: #AAAAAA;
+    --color-4: #DCCA87;
+    --color-5: #0C0B08;
+    --color-6: #0C0C0C;
+    --OpenSans-SemiBold: 'OpenSans-SemiBold';
+    --OpenSans-Regular: 'OpenSans-Regular';
+    --OpenSans-Italic: 'OpenSans-Italic';
+    --CormorantUpright-Bold: 'CormorantUpright-Bold';
+    --OpenSans-SemiBold: 'OpenSans-SemiBold';
+    --CormorantUpright-Regular: 'CormorantUpright-Regular';
+    --Bestermind-Regular: 'Bestermind-Regular';
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-5);
+    cursor: default;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-2 {
+    max-width: 1680px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
